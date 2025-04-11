@@ -1,0 +1,5 @@
+sounddevice
+numpy
+websockets
+faster_whisper
+TTS
