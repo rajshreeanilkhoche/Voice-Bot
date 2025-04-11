@@ -1,11 +1,17 @@
 # Voice-Bot
 
 real_time_voice_bot
+
 ├── backend
+
 │   ├── __init__.py
+
 │   ├── server
+
 │   │   ├── __init__.py
+
 │   │   ├── live_ws_server.py      # WebSocket server for real-time voice bot
+
 │   │   ├── ws_consumer.py         # Handles audio chunk receiving logic
 │   │   ├── config.py              # Config vars (model paths, thresholds, etc.)
 │   │   └── utils.py               # Audio helper functions
